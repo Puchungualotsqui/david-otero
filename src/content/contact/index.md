@@ -1,10 +1,11 @@
 ---
 icon: MessageCircleCode
-linkUrl: https://x.com/leowg
-linkText: with a direct question on X (twitter)
+linkUrl: mailto:davidotero856@gmail.com
+linkText: via email
 footerIcon: Pickaxe
-footerText: Crafted by an Artisan
-footerLinkText: Lauro Guedes
-footerLinkUrl: https://lauroguedes.dev
+footerText: Designed & Developed by
+footerLinkText: David Otero
+footerLinkUrl: mailto:davidotero856@gmail.com
 ---
-Want to chat? shoot me a dm
+
+Want to chat? Send me an email
