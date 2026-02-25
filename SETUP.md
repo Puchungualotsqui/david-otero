@@ -161,7 +161,7 @@ const portfolioData = {
   name: "Your Name",
   title: "Your Title",
   description: "Your description",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpg",
   location: "Your Location",
   email: "your.email@example.com",
   socialLinks: {
@@ -178,7 +178,7 @@ const portfolioData = {
 
 ### 2. Add Your Avatar
 
-Add your profile picture as `public/avatar.png` (recommended size: 512x512px)
+Add your profile picture as `public/avatar.jpg` (recommended size: 512x512px)
 
 ### 3. Add Content
 
@@ -287,7 +287,7 @@ To customize DaisyUI themes, you can modify the theme configuration in your `ast
 ```
 bloomfolio/
 ├── public/              # Static assets
-│   ├── avatar.png       # Your profile picture
+│   ├── avatar.jpg       # Your profile picture
 │   └── favicon.svg
 ├── src/
 │   ├── components/      # Reusable components

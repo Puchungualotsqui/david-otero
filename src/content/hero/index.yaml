@@ -1,33 +1,16 @@
-name: 🌻 Bloomfolio
-title: Astro Portfolio Template built with 🌼 DaisyUI
+name: David Otero
+title: David Otero
 description: >-
-  A modern, responsive, and customizable portfolio template built with Astro and
-  DaisyUI. Perfect for developers, designers, and creatives to showcase their
-  work and skills.
-avatar: '@assets/hero/avatar.png'
-location: 🇧🇷 Brazil
+  Final-year Data Science student in Sydney with a strong foundation in backend architecture, data processing, and performance optimization. I enjoy building scalable systems in Go, C, and Odin, and have experience in Unreal Engine C++ development and cloud-integrated applications. Focused on writing clean, efficient code that bridges data, infrastructure, and real-world impact.
+avatar: "@assets/hero/avatar.jpg"
+location: 🇦🇺 Australia
 socialLinks:
-  - url: mailto:hello@example.com
+  - url: mailto:davidotero856@gmail.com
     icon: Email
     label: Email
-  - url: https://github.com/lauroguedes
+  - url: https://github.com/Puchungualotsqui
     icon: GitHub
     label: GitHub
-  - url: https://linkedin.com/in/lauroguedes
+  - url: https://www.linkedin.com/in/david-sebastian-otero-velasquez
     icon: LinkedIn
     label: LinkedIn
-  - url: https://twitter.com/leowg
-    icon: Twitter
-    label: X (Twitter)
-  - url: https://bsky.app/profile/lauroguedes.bsky.social
-    icon: Bluesky
-    label: Bluesky
-  - url: https://instagram.com/lauroguedes.dev
-    icon: Instagram
-    label: Instagram
-  - url: https://youtube.com/leowgweb
-    icon: YouTube
-    label: YouTube
-  - url: https://codetips.cloud/u/lauroguedes
-    icon: FolderCode
-    label: CodeTips
