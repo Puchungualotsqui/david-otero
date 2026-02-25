@@ -4,7 +4,7 @@ description: >-
   StockPulse is a university project that analyzes the sentiment of financial news related to publicly traded companies. It combines a lightweight backend architecture (C# API + FastAPI NLP service) with a responsive React frontend.
 image: '@assets/projects/stock-pulse/image.png'
 startDate: 2024-11-10
-endDate: 2024-12-8
+endDate: 2024-12-08
 skills:
   - React
   - Tailwind CSS
@@ -16,6 +16,7 @@ skills:
   - Docker
   - JavaScript / TypeScript
   - C#
+  - NLP (Natural Language Processing)
 sourceLink: https://github.com/Puchungualotsqui/stock_pulse
 featured: true
 ---
