@@ -1,10 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
-import About from "../components/About.astro";
 import Timeline from "../components/Timeline.astro";
 import Projects from "../components/Projects.astro";
-import Blog from "../components/Blog.astro";
 import Hackathons from "../components/Hackathons.astro";
 import Contact from "../components/Contact.astro";
 import { Briefcase, GraduationCap } from "@lucide/astro";
@@ -12,9 +10,6 @@ import { getEntry, render } from "astro:content";
 
 // Load Hero singleton
 const heroEntry = await getEntry("hero", "index");
-
-// Load About singleton
-const aboutEntry = await getEntry("about", "index");
 
 // Load General singleton
 const generalEntry = await getEntry("general", "index");
@@ -33,9 +28,6 @@ const general = generalEntry.data;
         <div class="hidden lg:block">
             <!-- Projects Section -->
             {general.showProjectsSection && <Projects />}
-
-            <!-- Blog Section -->
-            {general.showBlogSection && <Blog />}
 
             <!-- Work Experience Section -->
             {
