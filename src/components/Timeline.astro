@@ -101,7 +101,7 @@ const entriesWithContent = await Promise.all(
         {
             variant === "timeline" ? (
                 <>
-                    <ul class="timeline timeline-vertical timeline-snap-icon">
+                    <ul class="timeline timeline-vertical timeline-snap-icon timeline-mobile-right">
                         {entriesWithContent.map(({ entry, Content }, index) => (
                             <li>
                                 {index > 0 && <hr class="bg-base-100" />}
@@ -111,10 +111,10 @@ const entriesWithContent = await Promise.all(
                                     />
                                 </div>
                                 <div
-                                    class={`timeline-${index % 2 === 0 ? "start" : "end"} max-w-2xs pt-3 mb-10`}
+                                    class={`timeline-${index % 2 === 0 ? "start" : "end"} pt-3 mb-10 w-full max-w-none sm:max-w-2xs`}
                                 >
                                     <time
-                                        class={`font-mono text-sm text-base-content/70 block italic ${index % 2 === 0 ? "text-end" : ""}`}
+                                        class={`font-mono text-sm text-base-content/70 block italic text-start ${index % 2 === 0 ? "sm:text-end" : ""}`}
                                     >
                                         {formatPeriod(
                                             entry.data.startDate,
@@ -152,7 +152,7 @@ const entriesWithContent = await Promise.all(
                                                         </div>
                                                     </div>
                                                 )}
-                                                <div class="flex-1">
+                                                <div class="flex-1 min-w-0">
                                                     <h3 class="card-title">
                                                         {entry.data.title}
                                                     </h3>
@@ -399,3 +399,36 @@ const entriesWithContent = await Promise.all(
         }
     </div>
 </section>
+
+<style>
+    /* Mobile: make timeline a 2-column grid:
+     [content (wide)] [middle line/icons (narrow, right)] */
+    @media (max-width: 640px) {
+        ul.timeline-mobile-right > li {
+            grid-template-columns: 1fr 2.5rem; /* tweak 2.5rem/3rem as you like */
+            column-gap: 0.75rem;
+        }
+
+        /* Force both start/end blocks to live in the left column on mobile */
+        ul.timeline-mobile-right > li > .timeline-start,
+        ul.timeline-mobile-right > li > .timeline-end {
+            grid-column: 1 / 2;
+            justify-self: stretch;
+            text-align: left;
+            min-width: 0; /* allows wrapping instead of overflow */
+        }
+
+        /* Put the middle icon/line in the right column */
+        ul.timeline-mobile-right > li > .timeline-middle {
+            grid-column: 2 / 3;
+            justify-self: end;
+        }
+
+        /* Ensure the vertical line stays aligned with the middle column */
+        ul.timeline-mobile-right > li > hr {
+            grid-column: 2 / 3;
+            justify-self: center;
+            width: 2px;
+        }
+    }
+</style>
