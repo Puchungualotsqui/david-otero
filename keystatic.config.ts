@@ -73,7 +73,7 @@ export default config({
             label: "Social Links",
             itemLabel: (props) => props.fields.label.value || "New Link",
             description: "Your social media and contact links",
-          }
+          },
         ),
       },
     }),
@@ -168,36 +168,8 @@ export default config({
             label: "Extra Links",
             itemLabel: (props) => props.fields.label.value || "New Link",
             description: "Links to display in the floating action button",
-          }
+          },
         ),
-        showAboutSection: fields.checkbox({
-          label: "Show About Section",
-          defaultValue: true,
-        }),
-        showProjectsSection: fields.checkbox({
-          label: "Show Projects Section",
-          defaultValue: true,
-        }),
-        showBlogSection: fields.checkbox({
-          label: "Show Blog Section",
-          defaultValue: true,
-        }),
-        showWorkSection: fields.checkbox({
-          label: "Show Work Experience Section",
-          defaultValue: true,
-        }),
-        showEducationSection: fields.checkbox({
-          label: "Show Education Section",
-          defaultValue: true,
-        }),
-        showHackathonsSection: fields.checkbox({
-          label: "Show Hackathons Section",
-          defaultValue: true,
-        }),
-        showContactSection: fields.checkbox({
-          label: "Show Contact Section",
-          defaultValue: true,
-        }),
       },
     }),
 
