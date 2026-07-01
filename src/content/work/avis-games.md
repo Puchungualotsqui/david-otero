@@ -1,5 +1,5 @@
 ---
-title: Avis Game Studios
+title: Avis Game Studio
 subtitle: Game Developer
 location: 🇪🇸 Remote (Spain)
 startDate: 2022-03-01
@@ -14,6 +14,6 @@ skills:
   - Pathfinding Algorithms
 ---
 
-- Developed real-time gameplay systems and pathfinding algorithms in Unreal Engine using C++.
+- Developed real-time pathfinding and gameplay AI systems in Unreal Engine using C++.
 - Improved frame rate performance by 50% through CPU/GPU profiling and memory optimization.
-- Contributed to gameplay architecture and system-level performance improvements.
+- Implemented and debugged performance-sensitive gameplay systems, strengthening experience with algorithms, optimization, and low-latency code.

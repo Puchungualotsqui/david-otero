@@ -1,18 +1,22 @@
 ---
 title: House Price Prediction
 description: >-
-  This project aims to predict house prices based on various features using different Machine Learning models. The objective is to identify the best-performing model by evaluating multiple regression algorithms and assessing their performance using common error metrics.
+  Regression-based machine learning project for predicting house prices from structured property data.
+  The project compares multiple models, applies preprocessing and feature engineering, and evaluates
+  performance using standard regression metrics.
 image: '@assets/projects/house-price-prediction/image.png'
 startDate: 2024-05-24
 endDate: 2024-08-10
 skills:
   - Python
-  - Keras
   - Pandas
-  - Numpy
+  - NumPy
+  - Scikit-learn
+  - Regression
   - Matplotlib
-  - Web Scrapping
+  - Web Scraping
 sourceLink: https://github.com/Puchungualotsqui/HousePricePredictor
+featured: true
 ---
 ## Dataset
 

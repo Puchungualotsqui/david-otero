@@ -14,7 +14,7 @@ skills:
   - DaisyUI
 demoLink: https://soundtools.dev/
 sourceLink: https://github.com/Puchungualotsqui/sonic-tools
-featured: true
+featured: false
 ---
 ## Features
 

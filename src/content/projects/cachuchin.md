@@ -11,7 +11,7 @@ skills:
   - Go
   - WebSockets
 demoLink: https://store.steampowered.com/app/2789730/Cachuchin_By_Waleles/
-featured: true
+featured: false
 ---
 Cachuchin: By Waleles is a fast, tactical duel inspired by chess and powered by movement cards. Read the board, predict your opponent, and turn every turn into a trap.
 

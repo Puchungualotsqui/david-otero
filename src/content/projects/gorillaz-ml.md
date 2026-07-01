@@ -1,14 +1,18 @@
 ---
 title: Gorillaz ML
 description: >-
-  Gorillaz is a machine learning library written in Go. It provides tools for building and evaluating various machine learning models, including regression, classification, and utilities for model persistence and evaluation metrics.
+  Machine learning library written in Go, implementing regression, classification,
+  evaluation metrics, and model persistence from scratch. The project explores the
+  internal structure of ML algorithms without relying on external dependencies.
 image: '@assets/projects/gorillaz-ml/image.png'
 startDate: 2024-07-10
 endDate: 2024-10-12
 skills:
   - Go
+  - Machine Learning
+  - Algorithms
   - Multithreading
-  - No dependencies
+  - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/GorillazML
 featured: true
 ---

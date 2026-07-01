@@ -1,17 +1,19 @@
 ---
 title: Time Series Analysis MSFT
 description: >-
-  Team project analysing MSFT stock time series.
-  LSMT approach using Keras framework.
+  Time series forecasting project analyzing Microsoft stock prices using exploratory data analysis,
+  statistical inspection, moving averages, and an LSTM neural network built with Keras.
 image: '@assets/projects/time-series-analysis-msft/image.png'
-startDate: 2024-02-30
+startDate: 2024-03-01
 endDate: 2024-06-25
 skills:
   - Python
   - Keras
+  - LSTM
   - Pandas
-  - Numpy
+  - NumPy
   - Matplotlib
+  - Time Series
 sourceLink: https://github.com/Puchungualotsqui/TimeSeriesAnalysisMSFT
 featured: true
 ---

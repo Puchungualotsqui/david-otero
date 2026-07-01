@@ -1,14 +1,18 @@
 ---
 title: Grizzly DataFrame
 description: >-
-  Grizzly is a DataFrame library for Go, designed to harness the full power of GoRoutines for handling large datasets efficiently. Its core aim is to provide an easy-to-use, yet robust, solution for data manipulation while maximizing the computational capabilities of modern machines through parallelized task execution.
+  DataFrame library for Go focused on efficient data manipulation, typed columns,
+  aggregation, statistical operations, and parallelized processing using goroutines.
+  The project was built to explore dataframe internals and query-style data operations.
 image: '@assets/projects/grizzly/image.png'
 startDate: 2024-05-27
 endDate: 2024-08-10
 skills:
   - Go
+  - Data Processing
+  - DataFrames
   - Multithreading
-  - No dependencies
+  - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/GrizzlyDataFrame
 featured: true
 ---

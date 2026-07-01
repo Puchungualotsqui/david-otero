@@ -1,18 +1,21 @@
 ---
 title: Alpaca Bot
 description: >-
-  This project automates a daily stock trading strategy using GRU-predicted highs and Alpaca API.
-  It fetches historical stock data, predicts the next day's high, and places buy/sell orders on the market open and target price.
+  End-to-end financial data pipeline and trading automation project using historical stock data,
+  GRU-based price prediction, feature engineering, and Alpaca API integration. The system selects
+  tickers, generates predictions, and automates order placement using scheduled scripts.
 image: '@assets/projects/alpaca/image.jpg'
 startDate: 2025-06-13
 endDate: 2025-08-28
 skills:
-  - Broker API
   - Python
+  - Financial Data
+  - Time Series
   - Keras
+  - Broker API
   - AWS
-  - Keras
 sourceLink: https://github.com/Puchungualotsqui/alpaca_bot
+featured: true
 ---
 ## How It Works
 

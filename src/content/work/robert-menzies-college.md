@@ -1,19 +1,20 @@
 ---
 title: Robert Menzies College
-subtitle: IT Service Operations
+subtitle: Chief Computer Advisor
 location: 🇦🇺 Sydney, Australia
 startDate: 2024-08-01
-endDate: 2025-02-12
+endDate: 2026-05-01
 logo: '@assets/work/rmc/logo.png'
 link: https://rmc.org.au
 skills:
-  - ITIL
-  - Incident Management
   - Technical Support
+  - Incident Management
+  - IT Operations
+  - Documentation
   - Linux
   - Communication
 ---
 
-- Managed end-to-end resolution of technical incidents for 300+ users, ensuring high service uptime.
-- Applied ITIL-aligned practices to prioritize and resolve support tickets efficiently.
-- Acted as a bridge between technical systems and non-technical users, delivering clear and effective solutions.
+- Managed technical support and troubleshooting for 300+ users, resolving hardware, software, network, and system-access issues.
+- Documented recurring technical issues and solutions, helping improve response consistency and reduce repeated support requests.
+- Applied structured incident-management practices to prioritize issues and maintain reliable technical operations.

@@ -1,16 +1,19 @@
 ---
 title: Relax
-description: "Relax is a lightweight, high-performance Deep Learning library written from scratch in Zig. It features a dynamic reverse-mode automatic differentiation engine (Autograd), N-dimensional tensors with broadcasting, and a high-level, Keras-style API for building and training neural networks."
+description: >-
+  Lightweight deep learning library written from scratch in Zig, featuring
+  reverse-mode automatic differentiation, N-dimensional tensors, broadcasting,
+  and a high-level API for building and training neural networks.
 image: "@assets/projects/relax/image.png"
 startDate: 2024-08-08
 endDate: 2024-12-06
 skills:
   - Zig
-  - No Dependencies
-  - Neural Netwok
+  - Neural Networks
+  - Autograd
+  - Tensors
   - Low-Level Programming
-  - High-Level API Provided
-  - Small Binary Size  
+  - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/relax
 featured: true
 ---

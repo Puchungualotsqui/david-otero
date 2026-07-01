@@ -12,7 +12,7 @@ skills:
   - Bash
 demoLink: https://aprendiendoconoteroediciones.com/
 sourceLink: https://github.com/Puchungualotsqui/learn-with-otero-ediciones
-featured: true
+featured: false
 ---
 ## Overview
 

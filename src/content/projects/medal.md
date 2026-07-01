@@ -1,20 +1,24 @@
 ---
 title: MedAL - Skin Cancer Detection System
 description: >-
-  Classifier model to detect skin cancer based on mole images. The model was used in the app MedAL
+  Deep learning image classification project for detecting malignant skin moles from medical images.
+  The model was built with TensorFlow/Keras using transfer learning, data augmentation, and a
+  recall-first evaluation approach to reduce the risk of missing malignant cases.
 image: '@assets/projects/medal/image.png'
 startDate: 2024-07-05
 endDate: 2024-11-04
 skills:
   - Python
+  - TensorFlow
   - Keras
   - Transfer Learning
   - Image Classification
+  - Medical AI
   - Matplotlib
 sourceLink: https://github.com/Puchungualotsqui/mole-detection
 featured: true
 ---
-## 📊 Key Results
+## Key Results
 We achieved a **97% Recall rate** for Malignant cases, ensuring that the vast majority of cancerous moles are flagged for further review by a dermatologist.
 
 | Class | Precision | Recall | F1-Score | Support |
@@ -25,7 +29,7 @@ We achieved a **97% Recall rate** for Malignant cases, ensuring that the vast ma
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 We experimented with two distinct architectures to benchmark performance:
 
 ### 1. Transfer Learning (EfficientNetB0)
@@ -42,7 +46,7 @@ We experimented with two distinct architectures to benchmark performance:
 
 ---
 
-## ⚙️ Engineering Pipeline
+## Engineering Pipeline
 
 ### Data Preprocessing & Augmentation
 Medical datasets are often imbalanced or limited. We implemented a robust `tf.data` pipeline:
@@ -63,12 +67,12 @@ We analyzed the **Precision-Recall Curve** and adjusted the decision threshold t
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Core:** Python, TensorFlow, Keras.
 * **Data Viz:** Matplotlib, Seaborn (Confusion Matrices).
 * **Metrics:** Scikit-Learn (`classification_report`, `precision_recall_curve`).
 
-## 🚀 Usage
+## Usage
 
 ```python
 # Load the model
