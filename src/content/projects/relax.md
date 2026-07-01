@@ -15,7 +15,7 @@ skills:
   - Low-Level Programming
   - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/relax
-featured: true
+featured: false
 ---
 ## Features
 

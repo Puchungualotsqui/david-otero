@@ -15,7 +15,7 @@ skills:
   - Matplotlib
   - Time Series
 sourceLink: https://github.com/Puchungualotsqui/TimeSeriesAnalysisMSFT
-featured: true
+featured: false
 ---
 ## Features
 - Exploratory Data Analysis – Historical Microsoft stock price visualization and statistical inspection

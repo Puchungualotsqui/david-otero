@@ -14,7 +14,7 @@ skills:
   - Multithreading
   - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/GrizzlyDataFrame
-featured: true
+featured: false
 ---
 ### Features
 - Typed DataFrame (float64 and string)

@@ -16,7 +16,7 @@ skills:
   - Matplotlib
   - Web Scraping
 sourceLink: https://github.com/Puchungualotsqui/HousePricePredictor
-featured: true
+featured: false
 ---
 ## Dataset
 

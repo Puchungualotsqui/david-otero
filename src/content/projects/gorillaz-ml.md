@@ -14,7 +14,7 @@ skills:
   - Multithreading
   - No Dependencies
 sourceLink: https://github.com/Puchungualotsqui/GorillazML
-featured: true
+featured: false
 ---
 ## Features
 
